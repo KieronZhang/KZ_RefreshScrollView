@@ -1,0 +1,15 @@
+PODS:
+  - KZ_Categories (0.1.7)
+  - KZ_MacroDefinition (0.1.1)
+
+DEPENDENCIES:
+  - KZ_Categories
+  - KZ_MacroDefinition
+
+SPEC CHECKSUMS:
+  KZ_Categories: 758d4dd888ec467b10d51ce3fb6e572f634f9644
+  KZ_MacroDefinition: aecd9aa2b47c9f4b4c623a7e28c4403ee94735ee
+
+PODFILE CHECKSUM: 1e989a46e0576194eaa951b07e772d19e7ae2ec1
+
+COCOAPODS: 1.3.1
