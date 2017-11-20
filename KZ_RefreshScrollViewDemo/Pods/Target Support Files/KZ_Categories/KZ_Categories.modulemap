@@ -1,6 +1,0 @@
-framework module KZ_Categories {
-  umbrella header "KZ_Categories-umbrella.h"
-
-  export *
-  module * { export * }
-}

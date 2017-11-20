@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import <KZ_RefreshScrollViewFramework/UIScrollView+KZ_Refresh.h>
 #import "NormalTableViewController.h"
 #import "CustomTableViewController.h"
 #import "WebRefreshViewController.h"
 #import "CollectionRefreshViewController.h"
 #import "ScrollViewController.h"
+#import <KZ_RefreshScrollViewFramework/UIScrollView+KZ_Refresh.h>
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate> {
     UITableView *mainTableView;

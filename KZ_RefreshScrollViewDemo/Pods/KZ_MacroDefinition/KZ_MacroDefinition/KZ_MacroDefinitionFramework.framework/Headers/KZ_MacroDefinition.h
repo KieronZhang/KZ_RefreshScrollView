@@ -10,6 +10,11 @@
 #define KZ_MacroDefinition_h
 
 //-------------------获取设备大小-------------------------
+//标准高度
+#define KZ_Status_Height (KZ_SCREEN_HEIGHT == 812 ? 44 : 20)
+#define KZ_TitleBar_Height (KZ_Status_Height + 44)
+#define KZ_Bottom_Height (KZ_SCREEN_HEIGHT == 812 ? 39 : 0)
+
 //获取屏幕 宽度、高度
 #define KZ_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define KZ_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
@@ -50,11 +55,8 @@
 #define KZ_Global_Queue(block) KZ_Async_Queue(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block)
 #define KZ_Main_Queue(block) KZ_Async_Queue(dispatch_get_main_queue(), block)
 
-//NSUserDefaults 实例化
-#define KZ_USER_DEFAULT [NSUserDefaults standardUserDefaults]
-
 //由角度获取弧度 有弧度获取角度
 #define KZ_DegreesToRadian(x) (M_PI * (x) / 180.0)
-#define KZ_RadianToDegrees(radian) (radian*180.0)/(M_PI)
+#define KZ_RadianToDegrees(radian) (radian * 180.0) / (M_PI)
 
 #endif /* KZ_MacroDefinition_h */

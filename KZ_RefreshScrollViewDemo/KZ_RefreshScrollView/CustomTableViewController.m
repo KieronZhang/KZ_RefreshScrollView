@@ -7,9 +7,9 @@
 //
 
 #import "CustomTableViewController.h"
-#import <KZ_RefreshScrollViewFramework/UIScrollView+KZ_Refresh.h>
 #import "TableViewCustomRefreshView.h"
 #import "TableViewCustomLoadMoreView.h"
+#import <KZ_RefreshScrollViewFramework/UIScrollView+KZ_Refresh.h>
 
 @interface CustomTableViewController ()
 
