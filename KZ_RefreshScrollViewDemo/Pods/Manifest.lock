@@ -1,5 +1,7 @@
 PODS:
-  - KZ_Categories (0.1)
+  - KZ_Categories (0.1):
+    - KZ_JSON
+  - KZ_JSON (0.1)
   - KZ_MacroDefinition (0.1)
 
 DEPENDENCIES:
@@ -7,7 +9,8 @@ DEPENDENCIES:
   - KZ_MacroDefinition
 
 SPEC CHECKSUMS:
-  KZ_Categories: 260eb48aa4279824567d44f43c6db55fce1da52e
+  KZ_Categories: dc24f14462d5ef52596cdb51cc4f725da8207dca
+  KZ_JSON: 78f4e58e3604928dc0fb801dde9f97aad0c0b636
   KZ_MacroDefinition: a05fc994e414f159cff52e8fecbd060b611c7b47
 
 PODFILE CHECKSUM: 1e989a46e0576194eaa951b07e772d19e7ae2ec1

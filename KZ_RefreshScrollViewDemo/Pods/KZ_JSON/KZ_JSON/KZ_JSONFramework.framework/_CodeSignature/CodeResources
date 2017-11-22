@@ -4,86 +4,56 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KZ_LoadMoreView.h</key>
+		<key>Headers/KZ_JSONFramework.h</key>
 		<data>
-		XO9ZjtOFb31qWard0dioF/dw4I0=
+		Mx017bN5kcIkS+jcCDLQKlShq5E=
 		</data>
-		<key>Headers/KZ_RefreshScrollViewFramework.h</key>
+		<key>Headers/NSDictionary+KZ_JSON.h</key>
 		<data>
-		DQGXkaZOqFLFbl3a2T0DRwRuNBM=
+		zb8LwRwaiSNuVTkg2G609RNhxXg=
 		</data>
-		<key>Headers/KZ_RefreshStatus.h</key>
+		<key>Headers/NSObject+KZ_JSON.h</key>
 		<data>
-		HR3zECsmx/8SpvTzel1V6vPjR4A=
-		</data>
-		<key>Headers/KZ_RefreshView.h</key>
-		<data>
-		Q1wCnkxnRl0IYM/MzwTdOW1bUYM=
-		</data>
-		<key>Headers/UIScrollView+KZ_Refresh.h</key>
-		<data>
-		fs/cths+MbbIivDmEZculH087Os=
+		CW/bwc2q9GzedmhDhGWmahTu6nw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XBwGKt7clikQYt0rxKhyRJAJtvw=
+		a4pEwS7uQY3Y0yxgk8pIdv+kUeg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/KZ_LoadMoreView.h</key>
+		<key>Headers/KZ_JSONFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XO9ZjtOFb31qWard0dioF/dw4I0=
+			Mx017bN5kcIkS+jcCDLQKlShq5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WdJ0dhfth/TYjs00gQvc7y7CtTBw0Dkq5hOABxy8Tg=
+			omjwAGumgU5jjF+OXkgVOHh+a06nNo9DDXd1w2U6sok=
 			</data>
 		</dict>
-		<key>Headers/KZ_RefreshScrollViewFramework.h</key>
+		<key>Headers/NSDictionary+KZ_JSON.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DQGXkaZOqFLFbl3a2T0DRwRuNBM=
+			zb8LwRwaiSNuVTkg2G609RNhxXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			To57tYC3e2ZGS2QrRyIXf2O4Di/FenTKxtavx9cq7qo=
+			SbF0aPpBzqs0FraMreRiY3j7E0cKsVR58csDbJAaG/k=
 			</data>
 		</dict>
-		<key>Headers/KZ_RefreshStatus.h</key>
+		<key>Headers/NSObject+KZ_JSON.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HR3zECsmx/8SpvTzel1V6vPjR4A=
+			CW/bwc2q9GzedmhDhGWmahTu6nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			R9kuj8C51CPWgGSBiT0f0C4wBorEdUyHYh+pQaoNHMo=
-			</data>
-		</dict>
-		<key>Headers/KZ_RefreshView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q1wCnkxnRl0IYM/MzwTdOW1bUYM=
-			</data>
-			<key>hash2</key>
-			<data>
-			nFXrYnR0qtCJwFOauH78WpAjY+0V3BklSP4x6aFs90g=
-			</data>
-		</dict>
-		<key>Headers/UIScrollView+KZ_Refresh.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fs/cths+MbbIivDmEZculH087Os=
-			</data>
-			<key>hash2</key>
-			<data>
-			K3X/nG8g5cIURyvopt5DxOC18h8g+vohJGZCF41qMT8=
+			mGwHGs/+RpdGfDNu9eBLWm1DXwt4RR2Z5NdpKC+t318=
 			</data>
 		</dict>
 	</dict>

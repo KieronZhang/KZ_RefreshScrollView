@@ -1,9 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/KZ_Categories/KZ_Categories" "${PODS_ROOT}/KZ_MacroDefinition/KZ_MacroDefinition"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/KZ_Categories/KZ_Categories" "${PODS_ROOT}/KZ_JSON/KZ_JSON" "${PODS_ROOT}/KZ_MacroDefinition/KZ_MacroDefinition"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KZ_Categories" "${PODS_ROOT}/Headers/Public/KZ_MacroDefinition"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KZ_Categories" "${PODS_ROOT}/Headers/Public/KZ_JSON" "${PODS_ROOT}/Headers/Public/KZ_MacroDefinition"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/KZ_Categories" -isystem "${PODS_ROOT}/Headers/Public/KZ_MacroDefinition"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "KZ_CategoriesFramework" -framework "KZ_MacroDefinitionFramework"
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/KZ_Categories" -isystem "${PODS_ROOT}/Headers/Public/KZ_JSON" -isystem "${PODS_ROOT}/Headers/Public/KZ_MacroDefinition"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "KZ_CategoriesFramework" -framework "KZ_JSONFramework" -framework "KZ_MacroDefinitionFramework"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
