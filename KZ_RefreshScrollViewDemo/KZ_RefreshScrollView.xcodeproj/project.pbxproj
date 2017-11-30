@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		A194D48BEC28D91A67BF8531 /* Pods_KZ_RefreshScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C77D30EC1D28A70E4849E0C /* Pods_KZ_RefreshScrollView.framework */; };
 		AE932F691F3E44E800247BF9 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932F681F3E44E800247BF9 /* ScrollViewController.m */; };
-		AE9A25F81FC5EF8500668BA7 /* KZ_RefreshScrollViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F71FC5EF8500668BA7 /* KZ_RefreshScrollViewFramework.framework */; };
-		AEA5EC061FC2ADAB003D7BD1 /* KZ_RefreshScrollViewBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEA5EC051FC2ADAB003D7BD1 /* KZ_RefreshScrollViewBundle.bundle */; };
 		AEF176D11E0EBDFC003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D01E0EBDFC003D041A /* main.m */; };
 		AEF176D41E0EBDFC003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D31E0EBDFC003D041A /* AppDelegate.m */; };
 		AEF176D71E0EBDFC003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D61E0EBDFC003D041A /* ViewController.m */; };
@@ -23,6 +21,8 @@
 		AEF177121E0EBF74003D041A /* TableViewCustomLoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177111E0EBF74003D041A /* TableViewCustomLoadMoreView.m */; };
 		AEF177151E0EBF8F003D041A /* TableViewCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177141E0EBF8F003D041A /* TableViewCustomRefreshView.m */; };
 		AEF177181E0EC022003D041A /* CollectionRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177171E0EC022003D041A /* CollectionRefreshViewController.m */; };
+		AEFCC1E21FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */; };
+		AEFCC1E31FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,8 +44,6 @@
 		8BBC4391152FE19EB02C8321 /* Pods_KZ_RefreshScrollViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_RefreshScrollViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE932F671F3E44E800247BF9 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
 		AE932F681F3E44E800247BF9 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
-		AE9A25F71FC5EF8500668BA7 /* KZ_RefreshScrollViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_RefreshScrollViewFramework.framework; sourceTree = "<group>"; };
-		AEA5EC051FC2ADAB003D7BD1 /* KZ_RefreshScrollViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_RefreshScrollViewBundle.bundle; sourceTree = "<group>"; };
 		AEF176CC1E0EBDFC003D041A /* KZ_RefreshScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_RefreshScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF176D01E0EBDFC003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF176D21E0EBDFC003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		AEF177141E0EBF8F003D041A /* TableViewCustomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCustomRefreshView.m; sourceTree = "<group>"; };
 		AEF177161E0EC022003D041A /* CollectionRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionRefreshViewController.h; sourceTree = "<group>"; };
 		AEF177171E0EC022003D041A /* CollectionRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionRefreshViewController.m; sourceTree = "<group>"; };
+		AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_RefreshScrollViewBundle.bundle; sourceTree = "<group>"; };
+		AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_RefreshScrollViewFramework.framework; sourceTree = "<group>"; };
 		CB3834DBEF6C8A2580CC0B20 /* Pods-KZ_RefreshScrollViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollViewFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollViewFramework/Pods-KZ_RefreshScrollViewFramework.release.xcconfig"; sourceTree = "<group>"; };
 		F6B3D580BFEA6D36EE45E358 /* Pods-KZ_RefreshScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		F70840BFF50F0A73CDA65F26 /* Pods-KZ_RefreshScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25F81FC5EF8500668BA7 /* KZ_RefreshScrollViewFramework.framework in Frameworks */,
+				AEFCC1E31FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework in Frameworks */,
 				A194D48BEC28D91A67BF8531 /* Pods_KZ_RefreshScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,8 +109,8 @@
 		AEA5EC041FC2ADAB003D7BD1 /* RefreshScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A25F71FC5EF8500668BA7 /* KZ_RefreshScrollViewFramework.framework */,
-				AEA5EC051FC2ADAB003D7BD1 /* KZ_RefreshScrollViewBundle.bundle */,
+				AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */,
+				AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */,
 			);
 			path = RefreshScrollView;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EC061FC2ADAB003D7BD1 /* KZ_RefreshScrollViewBundle.bundle in Resources */,
+				AEFCC1E21FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle in Resources */,
 				AEF176DF1E0EBDFC003D041A /* LaunchScreen.storyboard in Resources */,
 				AEF176DC1E0EBDFC003D041A /* Assets.xcassets in Resources */,
 				AEF176DA1E0EBDFC003D041A /* Main.storyboard in Resources */,
