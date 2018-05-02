@@ -7,79 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A194D48BEC28D91A67BF8531 /* Pods_KZ_RefreshScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C77D30EC1D28A70E4849E0C /* Pods_KZ_RefreshScrollView.framework */; };
-		AE932F691F3E44E800247BF9 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE932F681F3E44E800247BF9 /* ScrollViewController.m */; };
-		AEF176D11E0EBDFC003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D01E0EBDFC003D041A /* main.m */; };
-		AEF176D41E0EBDFC003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D31E0EBDFC003D041A /* AppDelegate.m */; };
-		AEF176D71E0EBDFC003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176D61E0EBDFC003D041A /* ViewController.m */; };
-		AEF176DA1E0EBDFC003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF176D81E0EBDFC003D041A /* Main.storyboard */; };
-		AEF176DC1E0EBDFC003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF176DB1E0EBDFC003D041A /* Assets.xcassets */; };
-		AEF176DF1E0EBDFC003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF176DD1E0EBDFC003D041A /* LaunchScreen.storyboard */; };
-		AEF177091E0EBF0E003D041A /* NormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177081E0EBF0E003D041A /* NormalTableViewController.m */; };
-		AEF1770C1E0EBF2B003D041A /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1770B1E0EBF2B003D041A /* CustomTableViewController.m */; };
-		AEF1770F1E0EBF59003D041A /* WebRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1770E1E0EBF59003D041A /* WebRefreshViewController.m */; };
-		AEF177121E0EBF74003D041A /* TableViewCustomLoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177111E0EBF74003D041A /* TableViewCustomLoadMoreView.m */; };
-		AEF177151E0EBF8F003D041A /* TableViewCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177141E0EBF8F003D041A /* TableViewCustomRefreshView.m */; };
-		AEF177181E0EC022003D041A /* CollectionRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF177171E0EC022003D041A /* CollectionRefreshViewController.m */; };
-		AEFCC1E21FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */; };
-		AEFCC1E31FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */; };
+		7422EFE4433D8AE893237F51 /* Pods_KZ_RefreshScrollView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74457F4D01736A0F7581CEDD /* Pods_KZ_RefreshScrollView_iOS.framework */; };
+		AEC61D8220998F4700DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D8120998F4700DFC8B9 /* AppDelegate.m */; };
+		AEC61D8520998F4700DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D8420998F4700DFC8B9 /* ViewController.m */; };
+		AEC61D8820998F4700DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC61D8620998F4700DFC8B9 /* Main.storyboard */; };
+		AEC61D8A20998F4800DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC61D8920998F4800DFC8B9 /* Assets.xcassets */; };
+		AEC61D8D20998F4800DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC61D8B20998F4800DFC8B9 /* LaunchScreen.storyboard */; };
+		AEC61D9020998F4800DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D8F20998F4800DFC8B9 /* main.m */; };
+		AEC61D9E20998FC100DFC8B9 /* NormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D9520998FC000DFC8B9 /* NormalTableViewController.m */; };
+		AEC61D9F20998FC100DFC8B9 /* TableViewCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D9620998FC000DFC8B9 /* TableViewCustomRefreshView.m */; };
+		AEC61DA020998FC100DFC8B9 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D9820998FC000DFC8B9 /* ScrollViewController.m */; };
+		AEC61DA120998FC100DFC8B9 /* WebRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D9920998FC000DFC8B9 /* WebRefreshViewController.m */; };
+		AEC61DA220998FC100DFC8B9 /* TableViewCustomLoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61D9D20998FC100DFC8B9 /* TableViewCustomLoadMoreView.m */; };
+		AEC61DA72099901900DFC8B9 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61DA42099901900DFC8B9 /* CustomTableViewController.m */; };
+		AEC61DA82099901900DFC8B9 /* CollectionRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC61DA52099901900DFC8B9 /* CollectionRefreshViewController.m */; };
+		AEC61DB0209990D400DFC8B9 /* KZ_RefreshScrollView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC61DAE209990D300DFC8B9 /* KZ_RefreshScrollView_iOS.framework */; };
+		AEC61DB1209990D400DFC8B9 /* KZ_RefreshScrollView_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEC61DAF209990D300DFC8B9 /* KZ_RefreshScrollView_Bundle.bundle */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AEDC10EE1FC1E55100752728 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E3323F539EA67CCC6A9A87F /* Pods-KZ_RefreshScrollViewFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollViewFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollViewFramework/Pods-KZ_RefreshScrollViewFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		2C77D30EC1D28A70E4849E0C /* Pods_KZ_RefreshScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_RefreshScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0BD456B6A3CC2BAA1531FF /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView_iOS/Pods-KZ_RefreshScrollView_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6F72EE4DA894A1498F6174BC /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView_iOS/Pods-KZ_RefreshScrollView_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		74457F4D01736A0F7581CEDD /* Pods_KZ_RefreshScrollView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_RefreshScrollView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBC4391152FE19EB02C8321 /* Pods_KZ_RefreshScrollViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_RefreshScrollViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE932F671F3E44E800247BF9 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
-		AE932F681F3E44E800247BF9 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
-		AEF176CC1E0EBDFC003D041A /* KZ_RefreshScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_RefreshScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEF176D01E0EBDFC003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEF176D21E0EBDFC003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEF176D31E0EBDFC003D041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEF176D51E0EBDFC003D041A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEF176D61E0EBDFC003D041A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEF176D91E0EBDFC003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEF176DB1E0EBDFC003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEF176DE1E0EBDFC003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AEF176E01E0EBDFC003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF177071E0EBF0E003D041A /* NormalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewController.h; sourceTree = "<group>"; };
-		AEF177081E0EBF0E003D041A /* NormalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewController.m; sourceTree = "<group>"; };
-		AEF1770A1E0EBF2B003D041A /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
-		AEF1770B1E0EBF2B003D041A /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
-		AEF1770D1E0EBF59003D041A /* WebRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRefreshViewController.h; sourceTree = "<group>"; };
-		AEF1770E1E0EBF59003D041A /* WebRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRefreshViewController.m; sourceTree = "<group>"; };
-		AEF177101E0EBF74003D041A /* TableViewCustomLoadMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCustomLoadMoreView.h; sourceTree = "<group>"; };
-		AEF177111E0EBF74003D041A /* TableViewCustomLoadMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCustomLoadMoreView.m; sourceTree = "<group>"; };
-		AEF177131E0EBF8F003D041A /* TableViewCustomRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCustomRefreshView.h; sourceTree = "<group>"; };
-		AEF177141E0EBF8F003D041A /* TableViewCustomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCustomRefreshView.m; sourceTree = "<group>"; };
-		AEF177161E0EC022003D041A /* CollectionRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionRefreshViewController.h; sourceTree = "<group>"; };
-		AEF177171E0EC022003D041A /* CollectionRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionRefreshViewController.m; sourceTree = "<group>"; };
-		AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_RefreshScrollViewBundle.bundle; sourceTree = "<group>"; };
-		AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_RefreshScrollViewFramework.framework; sourceTree = "<group>"; };
+		AEC61D7E20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_RefreshScrollView_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC61D8020998F4700DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC61D8120998F4700DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC61D8320998F4700DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC61D8420998F4700DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC61D8720998F4700DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC61D8920998F4800DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC61D8C20998F4800DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC61D8E20998F4800DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC61D8F20998F4800DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC61D9420998FC000DFC8B9 /* NormalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewController.h; sourceTree = "<group>"; };
+		AEC61D9520998FC000DFC8B9 /* NormalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewController.m; sourceTree = "<group>"; };
+		AEC61D9620998FC000DFC8B9 /* TableViewCustomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCustomRefreshView.m; sourceTree = "<group>"; };
+		AEC61D9720998FC000DFC8B9 /* WebRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRefreshViewController.h; sourceTree = "<group>"; };
+		AEC61D9820998FC000DFC8B9 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		AEC61D9920998FC000DFC8B9 /* WebRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRefreshViewController.m; sourceTree = "<group>"; };
+		AEC61D9A20998FC000DFC8B9 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		AEC61D9B20998FC100DFC8B9 /* TableViewCustomLoadMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCustomLoadMoreView.h; sourceTree = "<group>"; };
+		AEC61D9C20998FC100DFC8B9 /* TableViewCustomRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCustomRefreshView.h; sourceTree = "<group>"; };
+		AEC61D9D20998FC100DFC8B9 /* TableViewCustomLoadMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCustomLoadMoreView.m; sourceTree = "<group>"; };
+		AEC61DA32099901900DFC8B9 /* CollectionRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionRefreshViewController.h; sourceTree = "<group>"; };
+		AEC61DA42099901900DFC8B9 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		AEC61DA52099901900DFC8B9 /* CollectionRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionRefreshViewController.m; sourceTree = "<group>"; };
+		AEC61DA62099901900DFC8B9 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		AEC61DAE209990D300DFC8B9 /* KZ_RefreshScrollView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_RefreshScrollView_iOS.framework; sourceTree = "<group>"; };
+		AEC61DAF209990D300DFC8B9 /* KZ_RefreshScrollView_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_RefreshScrollView_Bundle.bundle; sourceTree = "<group>"; };
 		CB3834DBEF6C8A2580CC0B20 /* Pods-KZ_RefreshScrollViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollViewFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollViewFramework/Pods-KZ_RefreshScrollViewFramework.release.xcconfig"; sourceTree = "<group>"; };
 		F6B3D580BFEA6D36EE45E358 /* Pods-KZ_RefreshScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		F70840BFF50F0A73CDA65F26 /* Pods-KZ_RefreshScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_RefreshScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AEF176C91E0EBDFC003D041A /* Frameworks */ = {
+		AEC61D7B20998F4700DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFCC1E31FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework in Frameworks */,
-				A194D48BEC28D91A67BF8531 /* Pods_KZ_RefreshScrollView.framework in Frameworks */,
+				AEC61DB0209990D400DFC8B9 /* KZ_RefreshScrollView_iOS.framework in Frameworks */,
+				7422EFE4433D8AE893237F51 /* Pods_KZ_RefreshScrollView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +83,8 @@
 				F6B3D580BFEA6D36EE45E358 /* Pods-KZ_RefreshScrollView.release.xcconfig */,
 				0E3323F539EA67CCC6A9A87F /* Pods-KZ_RefreshScrollViewFramework.debug.xcconfig */,
 				CB3834DBEF6C8A2580CC0B20 /* Pods-KZ_RefreshScrollViewFramework.release.xcconfig */,
+				6C0BD456B6A3CC2BAA1531FF /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */,
+				6F72EE4DA894A1498F6174BC /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -102,15 +94,47 @@
 			children = (
 				2C77D30EC1D28A70E4849E0C /* Pods_KZ_RefreshScrollView.framework */,
 				8BBC4391152FE19EB02C8321 /* Pods_KZ_RefreshScrollViewFramework.framework */,
+				74457F4D01736A0F7581CEDD /* Pods_KZ_RefreshScrollView_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEA5EC041FC2ADAB003D7BD1 /* RefreshScrollView */ = {
+		AEC61D7F20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AEFCC1E01FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle */,
-				AEFCC1E11FCFE99E00CD8FB4 /* KZ_RefreshScrollViewFramework.framework */,
+				AEC61D8020998F4700DFC8B9 /* AppDelegate.h */,
+				AEC61D8120998F4700DFC8B9 /* AppDelegate.m */,
+				AEC61D8320998F4700DFC8B9 /* ViewController.h */,
+				AEC61D8420998F4700DFC8B9 /* ViewController.m */,
+				AEC61D9420998FC000DFC8B9 /* NormalTableViewController.h */,
+				AEC61D9520998FC000DFC8B9 /* NormalTableViewController.m */,
+				AEC61DA62099901900DFC8B9 /* CustomTableViewController.h */,
+				AEC61DA42099901900DFC8B9 /* CustomTableViewController.m */,
+				AEC61DA32099901900DFC8B9 /* CollectionRefreshViewController.h */,
+				AEC61DA52099901900DFC8B9 /* CollectionRefreshViewController.m */,
+				AEC61D9720998FC000DFC8B9 /* WebRefreshViewController.h */,
+				AEC61D9920998FC000DFC8B9 /* WebRefreshViewController.m */,
+				AEC61D9A20998FC000DFC8B9 /* ScrollViewController.h */,
+				AEC61D9820998FC000DFC8B9 /* ScrollViewController.m */,
+				AEC61D9C20998FC100DFC8B9 /* TableViewCustomRefreshView.h */,
+				AEC61D9620998FC000DFC8B9 /* TableViewCustomRefreshView.m */,
+				AEC61D9B20998FC100DFC8B9 /* TableViewCustomLoadMoreView.h */,
+				AEC61D9D20998FC100DFC8B9 /* TableViewCustomLoadMoreView.m */,
+				AEC61DA9209990C700DFC8B9 /* RefreshScrollView */,
+				AEC61D8620998F4700DFC8B9 /* Main.storyboard */,
+				AEC61D8920998F4800DFC8B9 /* Assets.xcassets */,
+				AEC61D8B20998F4800DFC8B9 /* LaunchScreen.storyboard */,
+				AEC61D8E20998F4800DFC8B9 /* Info.plist */,
+				AEC61D8F20998F4800DFC8B9 /* main.m */,
+			);
+			path = KZ_RefreshScrollView_iOS;
+			sourceTree = "<group>";
+		};
+		AEC61DA9209990C700DFC8B9 /* RefreshScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AEC61DAF209990D300DFC8B9 /* KZ_RefreshScrollView_Bundle.bundle */,
+				AEC61DAE209990D300DFC8B9 /* KZ_RefreshScrollView_iOS.framework */,
 			);
 			path = RefreshScrollView;
 			sourceTree = "<group>";
@@ -118,7 +142,7 @@
 		AEF176C31E0EBDFC003D041A = {
 			isa = PBXGroup;
 			children = (
-				AEF176CE1E0EBDFC003D041A /* KZ_RefreshScrollView */,
+				AEC61D7F20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS */,
 				AEF176CD1E0EBDFC003D041A /* Products */,
 				0C2F5F17DD30CFE86E4E373D /* Pods */,
 				76F0A47BD15C79A8C14A95A0 /* Frameworks */,
@@ -128,72 +152,30 @@
 		AEF176CD1E0EBDFC003D041A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEF176CC1E0EBDFC003D041A /* KZ_RefreshScrollView.app */,
+				AEC61D7E20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AEF176CE1E0EBDFC003D041A /* KZ_RefreshScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				AEF176D21E0EBDFC003D041A /* AppDelegate.h */,
-				AEF176D31E0EBDFC003D041A /* AppDelegate.m */,
-				AEF176D51E0EBDFC003D041A /* ViewController.h */,
-				AEF176D61E0EBDFC003D041A /* ViewController.m */,
-				AEF177071E0EBF0E003D041A /* NormalTableViewController.h */,
-				AEF177081E0EBF0E003D041A /* NormalTableViewController.m */,
-				AEF1770A1E0EBF2B003D041A /* CustomTableViewController.h */,
-				AEF1770B1E0EBF2B003D041A /* CustomTableViewController.m */,
-				AEF177161E0EC022003D041A /* CollectionRefreshViewController.h */,
-				AEF177171E0EC022003D041A /* CollectionRefreshViewController.m */,
-				AEF1770D1E0EBF59003D041A /* WebRefreshViewController.h */,
-				AEF1770E1E0EBF59003D041A /* WebRefreshViewController.m */,
-				AE932F671F3E44E800247BF9 /* ScrollViewController.h */,
-				AE932F681F3E44E800247BF9 /* ScrollViewController.m */,
-				AEF177131E0EBF8F003D041A /* TableViewCustomRefreshView.h */,
-				AEF177141E0EBF8F003D041A /* TableViewCustomRefreshView.m */,
-				AEF177101E0EBF74003D041A /* TableViewCustomLoadMoreView.h */,
-				AEF177111E0EBF74003D041A /* TableViewCustomLoadMoreView.m */,
-				AEA5EC041FC2ADAB003D7BD1 /* RefreshScrollView */,
-				AEF176D81E0EBDFC003D041A /* Main.storyboard */,
-				AEF176DB1E0EBDFC003D041A /* Assets.xcassets */,
-				AEF176DD1E0EBDFC003D041A /* LaunchScreen.storyboard */,
-				AEF176E01E0EBDFC003D041A /* Info.plist */,
-				AEF176CF1E0EBDFC003D041A /* Supporting Files */,
-			);
-			path = KZ_RefreshScrollView;
-			sourceTree = "<group>";
-		};
-		AEF176CF1E0EBDFC003D041A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEF176D01E0EBDFC003D041A /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEF176CB1E0EBDFC003D041A /* KZ_RefreshScrollView */ = {
+		AEC61D7D20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF176F91E0EBDFC003D041A /* Build configuration list for PBXNativeTarget "KZ_RefreshScrollView" */;
+			buildConfigurationList = AEC61D9120998F4800DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_RefreshScrollView_iOS" */;
 			buildPhases = (
-				885E462C5B11A778900820C8 /* [CP] Check Pods Manifest.lock */,
-				AEF176C81E0EBDFC003D041A /* Sources */,
-				AEF176C91E0EBDFC003D041A /* Frameworks */,
-				AEF176CA1E0EBDFC003D041A /* Resources */,
-				843579558DB6A8F196F53BC6 /* [CP] Embed Pods Frameworks */,
-				7AA5E47FBABE575F79C0F2E0 /* [CP] Copy Pods Resources */,
-				AEDC10EE1FC1E55100752728 /* Embed Frameworks */,
+				D3644889FA4CDDC1A4BFE218 /* [CP] Check Pods Manifest.lock */,
+				AEC61D7A20998F4700DFC8B9 /* Sources */,
+				AEC61D7B20998F4700DFC8B9 /* Frameworks */,
+				AEC61D7C20998F4700DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_RefreshScrollView;
-			productName = KZ_RefreshScrollView;
-			productReference = AEF176CC1E0EBDFC003D041A /* KZ_RefreshScrollView.app */;
+			name = KZ_RefreshScrollView_iOS;
+			productName = KZ_RefreshScrollView_iOS;
+			productReference = AEC61D7E20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,11 +184,11 @@
 		AEF176C41E0EBDFC003D041A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AEF176CB1E0EBDFC003D041A = {
-						CreatedOnToolsVersion = 8.2;
+					AEC61D7D20998F4700DFC8B9 = {
+						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = TGTFTDLM8G;
 						ProvisioningStyle = Automatic;
 					};
@@ -225,60 +207,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEF176CB1E0EBDFC003D041A /* KZ_RefreshScrollView */,
+				AEC61D7D20998F4700DFC8B9 /* KZ_RefreshScrollView_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AEF176CA1E0EBDFC003D041A /* Resources */ = {
+		AEC61D7C20998F4700DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFCC1E21FCFE99E00CD8FB4 /* KZ_RefreshScrollViewBundle.bundle in Resources */,
-				AEF176DF1E0EBDFC003D041A /* LaunchScreen.storyboard in Resources */,
-				AEF176DC1E0EBDFC003D041A /* Assets.xcassets in Resources */,
-				AEF176DA1E0EBDFC003D041A /* Main.storyboard in Resources */,
+				AEC61DB1209990D400DFC8B9 /* KZ_RefreshScrollView_Bundle.bundle in Resources */,
+				AEC61D8D20998F4800DFC8B9 /* LaunchScreen.storyboard in Resources */,
+				AEC61D8A20998F4800DFC8B9 /* Assets.xcassets in Resources */,
+				AEC61D8820998F4700DFC8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7AA5E47FBABE575F79C0F2E0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		843579558DB6A8F196F53BC6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KZ_Categories/KZ_Categories.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZ_Categories.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_RefreshScrollView/Pods-KZ_RefreshScrollView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		885E462C5B11A778900820C8 /* [CP] Check Pods Manifest.lock */ = {
+		D3644889FA4CDDC1A4BFE218 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,7 +238,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KZ_RefreshScrollView-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KZ_RefreshScrollView_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -299,38 +248,38 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AEF176C81E0EBDFC003D041A /* Sources */ = {
+		AEC61D7A20998F4700DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF1770F1E0EBF59003D041A /* WebRefreshViewController.m in Sources */,
-				AE932F691F3E44E800247BF9 /* ScrollViewController.m in Sources */,
-				AEF176D71E0EBDFC003D041A /* ViewController.m in Sources */,
-				AEF176D41E0EBDFC003D041A /* AppDelegate.m in Sources */,
-				AEF177091E0EBF0E003D041A /* NormalTableViewController.m in Sources */,
-				AEF177181E0EC022003D041A /* CollectionRefreshViewController.m in Sources */,
-				AEF177121E0EBF74003D041A /* TableViewCustomLoadMoreView.m in Sources */,
-				AEF177151E0EBF8F003D041A /* TableViewCustomRefreshView.m in Sources */,
-				AEF1770C1E0EBF2B003D041A /* CustomTableViewController.m in Sources */,
-				AEF176D11E0EBDFC003D041A /* main.m in Sources */,
+				AEC61DA120998FC100DFC8B9 /* WebRefreshViewController.m in Sources */,
+				AEC61D8520998F4700DFC8B9 /* ViewController.m in Sources */,
+				AEC61D9020998F4800DFC8B9 /* main.m in Sources */,
+				AEC61D9F20998FC100DFC8B9 /* TableViewCustomRefreshView.m in Sources */,
+				AEC61DA82099901900DFC8B9 /* CollectionRefreshViewController.m in Sources */,
+				AEC61DA220998FC100DFC8B9 /* TableViewCustomLoadMoreView.m in Sources */,
+				AEC61DA020998FC100DFC8B9 /* ScrollViewController.m in Sources */,
+				AEC61D9E20998FC100DFC8B9 /* NormalTableViewController.m in Sources */,
+				AEC61DA72099901900DFC8B9 /* CustomTableViewController.m in Sources */,
+				AEC61D8220998F4700DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEF176D81E0EBDFC003D041A /* Main.storyboard */ = {
+		AEC61D8620998F4700DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF176D91E0EBDFC003D041A /* Base */,
+				AEC61D8720998F4700DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AEF176DD1E0EBDFC003D041A /* LaunchScreen.storyboard */ = {
+		AEC61D8B20998F4800DFC8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF176DE1E0EBDFC003D041A /* Base */,
+				AEC61D8C20998F4800DFC8B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -338,6 +287,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AEC61D9220998F4800DFC8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0BD456B6A3CC2BAA1531FF /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_RefreshScrollView_iOS/RefreshScrollView",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_RefreshScrollView_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-RefreshScrollView-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEC61D9320998F4800DFC8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F72EE4DA894A1498F6174BC /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_RefreshScrollView_iOS/RefreshScrollView",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_RefreshScrollView_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-RefreshScrollView-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		AEF176F71E0EBDFC003D041A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -351,6 +358,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -358,6 +366,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -384,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,6 +414,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -412,6 +422,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,67 +451,23 @@
 			};
 			name = Release;
 		};
-		AEF176FA1E0EBDFC003D041A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F70840BFF50F0A73CDA65F26 /* Pods-KZ_RefreshScrollView.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_RefreshScrollView/RefreshScrollView",
-				);
-				INFOPLIST_FILE = KZ_RefreshScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.RefreshScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		AEF176FB1E0EBDFC003D041A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B3D580BFEA6D36EE45E358 /* Pods-KZ_RefreshScrollView.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_RefreshScrollView/RefreshScrollView",
-				);
-				INFOPLIST_FILE = KZ_RefreshScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.RefreshScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AEC61D9120998F4800DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_RefreshScrollView_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC61D9220998F4800DFC8B9 /* Debug */,
+				AEC61D9320998F4800DFC8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEF176C71E0EBDFC003D041A /* Build configuration list for PBXProject "KZ_RefreshScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEF176F71E0EBDFC003D041A /* Debug */,
 				AEF176F81E0EBDFC003D041A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEF176F91E0EBDFC003D041A /* Build configuration list for PBXNativeTarget "KZ_RefreshScrollView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEF176FA1E0EBDFC003D041A /* Debug */,
-				AEF176FB1E0EBDFC003D041A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

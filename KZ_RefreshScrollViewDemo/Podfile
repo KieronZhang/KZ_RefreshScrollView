@@ -1,8 +1,8 @@
-platform :ios, ‘8.0’
+platform :ios, '8.0'
 
 use_frameworks!
 
-target 'KZ_RefreshScrollView' do
+target 'KZ_RefreshScrollView_iOS' do
     
     pod 'KZ_Categories'
     pod 'KZ_MacroDefinition'
