@@ -9,18 +9,24 @@
 #ifndef KZ_MacroDefinition_h
 #define KZ_MacroDefinition_h
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 
 //-------------------获取设备大小-------------------------
 //标准高度
-#define KZ_Status_Height (KZ_SCREEN_HEIGHT == 812 ? 44 : 20)
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_11_0
+#define KZ_Status_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.top
+#define KZ_Bottom_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom
+#else
+#define KZ_Status_Height 20
+#define KZ_Bottom_Height 0
+#endif
+
 #define KZ_TitleBar_Height (KZ_Status_Height + 44)
-#define KZ_Bottom_Height (KZ_SCREEN_HEIGHT == 812 ? 39 : 0)
 
 //获取屏幕 宽度、高度
-#define KZ_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
-#define KZ_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
-#define KZ_SCREEN_RADIO (([UIScreen mainScreen].bounds.size.width) / 320.0f)
+#define KZ_Screen_Width ([UIScreen mainScreen].bounds.size.width)
+#define KZ_Screen_Height ([UIScreen mainScreen].bounds.size.height)
+#define KZ_Screen_Radio (([UIScreen mainScreen].bounds.size.width) / 320.0f)
 
 //----------------------系统----------------------------
 //获取系统版本
@@ -31,6 +37,7 @@
 #define KZ_IOS_9 (KZ_IOS_Version >= 9.0)
 #define KZ_IOS_10 (KZ_IOS_Version >= 10.0)
 #define KZ_IOS_11 (KZ_IOS_Version >= 11.0)
+#define KZ_IOS_12 (KZ_IOS_Version >= 12.0)
 #define KZ_IOS(version) (KZ_IOS_Version >= (version))
 
 //判断是否是iPad
@@ -41,12 +48,12 @@
 #define KZ_ColorFromRGBA(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:a]
 #define KZ_ColorFromRGB(rgbValue) KZ_ColorFromRGBA(rgbValue, 1.0)
 
-#elif TARGET_OS_MAC
+#elif TARGET_OS_OSX
 
 //-------------------获取设备大小-------------------------
 //获取屏幕 宽度、高度
-#define KZ_SCREEN_WIDTH ([NSScreen mainScreen].frame.size.width)
-#define KZ_SCREEN_HEIGHT ([NSScreen mainScreen].frame.size.height)
+#define KZ_Screen_Width ([NSScreen mainScreen].frame.size.width)
+#define KZ_Screen_Height ([NSScreen mainScreen].frame.size.height)
 
 //----------------------颜色类---------------------------
 // rgb颜色转换（16进制->10进制）

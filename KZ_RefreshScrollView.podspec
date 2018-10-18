@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_RefreshScrollView'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS refresh and load more.'
     s.homepage = 'https://github.com/KieronZhang/KZ_RefreshScrollView'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
