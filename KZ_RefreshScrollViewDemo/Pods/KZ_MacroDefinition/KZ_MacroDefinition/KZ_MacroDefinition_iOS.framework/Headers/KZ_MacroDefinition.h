@@ -13,20 +13,16 @@
 
 //-------------------获取设备大小-------------------------
 //标准高度
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_11_0
-#define KZ_Status_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.top
-#define KZ_Bottom_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom
-#else
-#define KZ_Status_Height 20
-#define KZ_Bottom_Height 0
-#endif
-
+#define KZ_Status_Height ((KZ_Screen_Height == 812 || KZ_Screen_Height == 896) ? 44 : 20)
+#define KZ_Bottom_Height ((KZ_Screen_Height == 812 || KZ_Screen_Height == 896) ? 39 : 0)
 #define KZ_TitleBar_Height (KZ_Status_Height + 44)
 
 //获取屏幕 宽度、高度
 #define KZ_Screen_Width ([UIScreen mainScreen].bounds.size.width)
 #define KZ_Screen_Height ([UIScreen mainScreen].bounds.size.height)
-#define KZ_Screen_Radio (([UIScreen mainScreen].bounds.size.width) / 320.0f)
+#define KZ_Screen_Radio(w) (([UIScreen mainScreen].bounds.size.width) / (w))
+#define KZ_Screen_Radio_320 KZ_Screen_Radio(320.0f)
+#define KZ_Screen_Radio_375 KZ_Screen_Radio(375.0f)
 
 //----------------------系统----------------------------
 //获取系统版本

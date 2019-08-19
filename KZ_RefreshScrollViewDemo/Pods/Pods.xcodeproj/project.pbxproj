@@ -6,225 +6,322 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 76C5211E611DF21149CC703F3B8E34E5 /* Build configuration list for PBXAggregateTarget "KZ_MacroDefinition" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_MacroDefinition;
+		};
+		43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2D3F98899DA6C134FA31B3293926501 /* Build configuration list for PBXAggregateTarget "KZ_JSON" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_JSON;
+		};
+		5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F66B6B354F63A3FF1FC96F9E37FC5256 /* Build configuration list for PBXAggregateTarget "KZ_Categories" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D1231C5A8A5E36F2EB460AD552AECDB6 /* PBXTargetDependency */,
+			);
+			name = KZ_Categories;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		598CF05323951A30BD37D4FBECF89A8E /* Pods-KZ_RefreshScrollView_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEB9C87FDBF5AB2862D535B79859180 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CEE07CBD560D1C3135CB029DCAE515F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		99B9741228C2FA4C10E7CD7BD52D5907 /* Pods-KZ_RefreshScrollView_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92BE7B0AAD01BC2F77A161AE3F8112 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */; };
+		0708BB16D8FE8DB29A4D6205D68A4034 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7BDDD6F2FC0647922DA8ED76529709 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BAC9FF2708ED0FCEDE6A07AC7E07D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		78B0834A3A25D50668151BFF4E536A29 /* Pods-KZ_RefreshScrollView_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542655167DD720F04852240165E0EE4 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		858F7FD6E3B27F6FFA58C0A87564FA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43717FDE660756DA0DC7A16F996A3CFA;
+			remoteInfo = KZ_JSON;
+		};
+		A37AD365EF7D4ED818CC2809F9B192BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBB555F806498BD0170D25AF3E067A2;
+			remoteInfo = KZ_Categories;
+		};
+		E05B7EE415F6758D4D39DA036A9754A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43217930D28CF9C056420B8F2026DED2;
+			remoteInfo = KZ_MacroDefinition;
+		};
+		E16E70800D2DE18F401CC1F57AA285AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43717FDE660756DA0DC7A16F996A3CFA;
+			remoteInfo = KZ_JSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1A92BE7B0AAD01BC2F77A161AE3F8112 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_RefreshScrollView_iOS-dummy.m"; sourceTree = "<group>"; };
-		1F9AAED0EDB90B3A3C2CC67D1F0AB3DE /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
-		2B5C0640F56FBD4FB037BE4D04926A44 /* Pods_KZ_RefreshScrollView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_RefreshScrollView_iOS.framework; path = "Pods-KZ_RefreshScrollView_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D7A0FFEFD8FEA6C137316DA72F8AD04 /* Pods-KZ_RefreshScrollView_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_RefreshScrollView_iOS.modulemap"; sourceTree = "<group>"; };
-		2FEB9C87FDBF5AB2862D535B79859180 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_RefreshScrollView_iOS-umbrella.h"; sourceTree = "<group>"; };
-		54D501E9B63E8EF4B0D5A387B71C7AB7 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		902703CAF06784886FC50E761714DC8B /* Pods-KZ_RefreshScrollView_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_RefreshScrollView_iOS-resources.sh"; sourceTree = "<group>"; };
-		91EF5CC7663508CFED2FEF981BF44AFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C0B501730AD95D185A96578F6B14423 /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C02D90EF2DAEEBBE8A6E834F640FB71A /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_RefreshScrollView_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		E4968BDE72DD2D0A6B7735281E7A8B9B /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		E863EE3154F8D67A9C8ABA7ECB75C669 /* Pods-KZ_RefreshScrollView_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_RefreshScrollView_iOS-frameworks.sh"; sourceTree = "<group>"; };
-		F0481B5BADB437F072044C4704CB0703 /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_RefreshScrollView_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		F9045368187572FDF84C241F871BFA56 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
+		0E387D1F0E6A300F359E51D4F78390CE /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		120356A3A4C5407451A57609E13573ED /* KZ_MacroDefinition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_MacroDefinition.xcconfig; sourceTree = "<group>"; };
+		2542655167DD720F04852240165E0EE4 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_RefreshScrollView_iOS-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33C0C066E2640782CAB763C04211DDCB /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_RefreshScrollView_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		398303B88BF3D285958749564A634181 /* Pods-KZ_RefreshScrollView_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_RefreshScrollView_iOS-Info.plist"; sourceTree = "<group>"; };
+		434870151870CF3D0F6C614928FEBBD9 /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A298598F03355EC8819171BA2E6397B /* KZ_Categories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Categories.xcconfig; sourceTree = "<group>"; };
+		4A7BDDD6F2FC0647922DA8ED76529709 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_RefreshScrollView_iOS-umbrella.h"; sourceTree = "<group>"; };
+		8D3F42F8C25C297D63E8C93D688D16A8 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6BA335992078C192C33852A0ED3CA43 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
+		C80CE976C7016E79B5F818B2E00F087D /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_RefreshScrollView_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D6F63814F7C935DE85CFCB6BF2B9FD75 /* Pods_KZ_RefreshScrollView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_RefreshScrollView_iOS.framework; path = "Pods-KZ_RefreshScrollView_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5EA5316518A19E12A7D87BED2C7EDE /* KZ_JSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_JSON.xcconfig; sourceTree = "<group>"; };
+		E822BECE7F59BB5544AEE38C9B79A016 /* Pods-KZ_RefreshScrollView_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_RefreshScrollView_iOS.modulemap"; sourceTree = "<group>"; };
+		FB9E8A31890FC75E060B24342FD1C2DB /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E4033A7A48C85D3D660B85E980768B5 /* Frameworks */ = {
+		5A3858D156E59F3EF4A648B19D364D5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEE07CBD560D1C3135CB029DCAE515F /* Foundation.framework in Frameworks */,
+				23BAC9FF2708ED0FCEDE6A07AC7E07D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		178BCAE95FD394428B9CF8021FC832B9 /* Frameworks */ = {
+		37DB26D86B0AF84B70F260B5F5B589CE /* KZ_Categories */ = {
 			isa = PBXGroup;
 			children = (
-				F9045368187572FDF84C241F871BFA56 /* KZ_MacroDefinition_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		338292C499980346E9879E2D5B989DE4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCDD872D4F528A59F8FDD9A6E351B603 /* Pods-KZ_RefreshScrollView_iOS */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		578E39B48DBB97AFA19004F7C69AFCA1 /* KZ_JSON */ = {
-			isa = PBXGroup;
-			children = (
-				9D9D4261785B09926EBE3CF0F93BB549 /* Frameworks */,
-			);
-			name = KZ_JSON;
-			path = KZ_JSON;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7CB2A51A814F480C27F563EE7F619CBE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2B5C0640F56FBD4FB037BE4D04926A44 /* Pods_KZ_RefreshScrollView_iOS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				996E835005331B8BA42FC422D4F7915C /* Pods */,
-				7CB2A51A814F480C27F563EE7F619CBE /* Products */,
-				338292C499980346E9879E2D5B989DE4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		94147899B116D4FBAD8A6F065F73A026 /* KZ_MacroDefinition */ = {
-			isa = PBXGroup;
-			children = (
-				178BCAE95FD394428B9CF8021FC832B9 /* Frameworks */,
-			);
-			name = KZ_MacroDefinition;
-			path = KZ_MacroDefinition;
-			sourceTree = "<group>";
-		};
-		996E835005331B8BA42FC422D4F7915C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C8FAAA2B3481FFECC2C625F370CECA68 /* KZ_Categories */,
-				578E39B48DBB97AFA19004F7C69AFCA1 /* KZ_JSON */,
-				94147899B116D4FBAD8A6F065F73A026 /* KZ_MacroDefinition */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9D9D4261785B09926EBE3CF0F93BB549 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1F9AAED0EDB90B3A3C2CC67D1F0AB3DE /* KZ_JSON_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCDD872D4F528A59F8FDD9A6E351B603 /* Pods-KZ_RefreshScrollView_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				91EF5CC7663508CFED2FEF981BF44AFD /* Info.plist */,
-				2D7A0FFEFD8FEA6C137316DA72F8AD04 /* Pods-KZ_RefreshScrollView_iOS.modulemap */,
-				9C0B501730AD95D185A96578F6B14423 /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown */,
-				E4968BDE72DD2D0A6B7735281E7A8B9B /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist */,
-				1A92BE7B0AAD01BC2F77A161AE3F8112 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */,
-				E863EE3154F8D67A9C8ABA7ECB75C669 /* Pods-KZ_RefreshScrollView_iOS-frameworks.sh */,
-				902703CAF06784886FC50E761714DC8B /* Pods-KZ_RefreshScrollView_iOS-resources.sh */,
-				2FEB9C87FDBF5AB2862D535B79859180 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */,
-				F0481B5BADB437F072044C4704CB0703 /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */,
-				C02D90EF2DAEEBBE8A6E834F640FB71A /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */,
-			);
-			name = "Pods-KZ_RefreshScrollView_iOS";
-			path = "Target Support Files/Pods-KZ_RefreshScrollView_iOS";
-			sourceTree = "<group>";
-		};
-		C8FAAA2B3481FFECC2C625F370CECA68 /* KZ_Categories */ = {
-			isa = PBXGroup;
-			children = (
-				F1D566CCFFAB12566A0CD891B77CC74F /* Frameworks */,
+				8F9EFFA551D4D9B81D366CB498409213 /* Frameworks */,
+				FD811E082B47E9F8681036B05799F027 /* Support Files */,
 			);
 			name = KZ_Categories;
 			path = KZ_Categories;
 			sourceTree = "<group>";
 		};
-		F1D566CCFFAB12566A0CD891B77CC74F /* Frameworks */ = {
+		5C5CDEF8E8024E6960404F44689E9CF3 /* KZ_JSON */ = {
 			isa = PBXGroup;
 			children = (
-				54D501E9B63E8EF4B0D5A387B71C7AB7 /* KZ_Categories_iOS.framework */,
+				A5C8B52E94D0C407F10F115E973774F1 /* Frameworks */,
+				F2256ED5511F9364345067422E1B690C /* Support Files */,
+			);
+			name = KZ_JSON;
+			path = KZ_JSON;
+			sourceTree = "<group>";
+		};
+		6121EC0AE365A552B0E85CB59D13C831 /* Pods-KZ_RefreshScrollView_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E822BECE7F59BB5544AEE38C9B79A016 /* Pods-KZ_RefreshScrollView_iOS.modulemap */,
+				FB9E8A31890FC75E060B24342FD1C2DB /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.markdown */,
+				434870151870CF3D0F6C614928FEBBD9 /* Pods-KZ_RefreshScrollView_iOS-acknowledgements.plist */,
+				2542655167DD720F04852240165E0EE4 /* Pods-KZ_RefreshScrollView_iOS-dummy.m */,
+				398303B88BF3D285958749564A634181 /* Pods-KZ_RefreshScrollView_iOS-Info.plist */,
+				4A7BDDD6F2FC0647922DA8ED76529709 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h */,
+				33C0C066E2640782CAB763C04211DDCB /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */,
+				C80CE976C7016E79B5F818B2E00F087D /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */,
+			);
+			name = "Pods-KZ_RefreshScrollView_iOS";
+			path = "Target Support Files/Pods-KZ_RefreshScrollView_iOS";
+			sourceTree = "<group>";
+		};
+		619BC38A48F78BEBFD9C1607EDDFF978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB26D86B0AF84B70F260B5F5B589CE /* KZ_Categories */,
+				5C5CDEF8E8024E6960404F44689E9CF3 /* KZ_JSON */,
+				FA445AF4F93350C5404F98194577949D /* KZ_MacroDefinition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74162FC74CA7F3566E65FD1EAACB0D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F63814F7C935DE85CFCB6BF2B9FD75 /* Pods_KZ_RefreshScrollView_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9EFFA551D4D9B81D366CB498409213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E387D1F0E6A300F359E51D4F78390CE /* KZ_Categories_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977AD7179C20C804CCE64442FCD6796F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F42F8C25C297D63E8C93D688D16A8 /* KZ_MacroDefinition_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39F07717A44F9D395970BC58FF62EDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				120356A3A4C5407451A57609E13573ED /* KZ_MacroDefinition.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_MacroDefinition";
+			sourceTree = "<group>";
+		};
+		A5C8B52E94D0C407F10F115E973774F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA335992078C192C33852A0ED3CA43 /* KZ_JSON_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C34E9761A252524839C299489E931A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6121EC0AE365A552B0E85CB59D13C831 /* Pods-KZ_RefreshScrollView_iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				619BC38A48F78BEBFD9C1607EDDFF978 /* Pods */,
+				74162FC74CA7F3566E65FD1EAACB0D9A /* Products */,
+				A8C34E9761A252524839C299489E931A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2256ED5511F9364345067422E1B690C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5EA5316518A19E12A7D87BED2C7EDE /* KZ_JSON.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_JSON";
+			sourceTree = "<group>";
+		};
+		FA445AF4F93350C5404F98194577949D /* KZ_MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				977AD7179C20C804CCE64442FCD6796F /* Frameworks */,
+				A39F07717A44F9D395970BC58FF62EDF /* Support Files */,
+			);
+			name = KZ_MacroDefinition;
+			path = KZ_MacroDefinition;
+			sourceTree = "<group>";
+		};
+		FD811E082B47E9F8681036B05799F027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A298598F03355EC8819171BA2E6397B /* KZ_Categories.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		58A5C5A1E2CD370CDCC4B64F3DBE38BC /* Headers */ = {
+		3CB2CAE26127B5C5EB07F4CCBAF08FBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598CF05323951A30BD37D4FBECF89A8E /* Pods-KZ_RefreshScrollView_iOS-umbrella.h in Headers */,
+				0708BB16D8FE8DB29A4D6205D68A4034 /* Pods-KZ_RefreshScrollView_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E9AB0F2FAF0C2795E347095243E60A1D /* Pods-KZ_RefreshScrollView_iOS */ = {
+		92E56EC5531BBF8436336E4BA534AB9F /* Pods-KZ_RefreshScrollView_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43F8608D56892E0D07D023FFF00E2230 /* Build configuration list for PBXNativeTarget "Pods-KZ_RefreshScrollView_iOS" */;
+			buildConfigurationList = DFE1EBDE040324E64BB21AD3439566B8 /* Build configuration list for PBXNativeTarget "Pods-KZ_RefreshScrollView_iOS" */;
 			buildPhases = (
-				58A5C5A1E2CD370CDCC4B64F3DBE38BC /* Headers */,
-				8A6BC0E41450AE46C54FFD7D3F11CF6E /* Sources */,
-				2E4033A7A48C85D3D660B85E980768B5 /* Frameworks */,
-				2520FF356D4B7770966ADE309EFFEB7F /* Resources */,
+				3CB2CAE26127B5C5EB07F4CCBAF08FBE /* Headers */,
+				B0693A9AE8080F95BE2D3E707CEB4A04 /* Sources */,
+				5A3858D156E59F3EF4A648B19D364D5F /* Frameworks */,
+				9E7FB319D11333C4F1CAE94C5134FF3C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD01A76E1EB59090B358844E6BA41216 /* PBXTargetDependency */,
+				21265CE961E9E3A7753184344EE001F8 /* PBXTargetDependency */,
+				3FE1D2E94A868D804FBDBCC4C9CCC66D /* PBXTargetDependency */,
 			);
 			name = "Pods-KZ_RefreshScrollView_iOS";
 			productName = "Pods-KZ_RefreshScrollView_iOS";
-			productReference = 2B5C0640F56FBD4FB037BE4D04926A44 /* Pods_KZ_RefreshScrollView_iOS.framework */;
+			productReference = D6F63814F7C935DE85CFCB6BF2B9FD75 /* Pods_KZ_RefreshScrollView_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7CB2A51A814F480C27F563EE7F619CBE /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74162FC74CA7F3566E65FD1EAACB0D9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9AB0F2FAF0C2795E347095243E60A1D /* Pods-KZ_RefreshScrollView_iOS */,
+				5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */,
+				43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */,
+				43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */,
+				92E56EC5531BBF8436336E4BA534AB9F /* Pods-KZ_RefreshScrollView_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2520FF356D4B7770966ADE309EFFEB7F /* Resources */ = {
+		9E7FB319D11333C4F1CAE94C5134FF3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,20 +331,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A6BC0E41450AE46C54FFD7D3F11CF6E /* Sources */ = {
+		B0693A9AE8080F95BE2D3E707CEB4A04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B9741228C2FA4C10E7CD7BD52D5907 /* Pods-KZ_RefreshScrollView_iOS-dummy.m in Sources */,
+				78B0834A3A25D50668151BFF4E536A29 /* Pods-KZ_RefreshScrollView_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		21265CE961E9E3A7753184344EE001F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_JSON;
+			target = 43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */;
+			targetProxy = 858F7FD6E3B27F6FFA58C0A87564FA47 /* PBXContainerItemProxy */;
+		};
+		3FE1D2E94A868D804FBDBCC4C9CCC66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_MacroDefinition;
+			target = 43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */;
+			targetProxy = E05B7EE415F6758D4D39DA036A9754A4 /* PBXContainerItemProxy */;
+		};
+		CD01A76E1EB59090B358844E6BA41216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Categories;
+			target = 5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */;
+			targetProxy = A37AD365EF7D4ED818CC2809F9B192BD /* PBXContainerItemProxy */;
+		};
+		D1231C5A8A5E36F2EB460AD552AECDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_JSON;
+			target = 43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */;
+			targetProxy = E16E70800D2DE18F401CC1F57AA285AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		33E2CFA40427C4BAB9E76891BF683749 /* Release */ = {
+		0EE75662EAB988746DBF3A77BED21E0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C02D90EF2DAEEBBE8A6E834F640FB71A /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */;
+			baseConfigurationReference = C80CE976C7016E79B5F818B2E00F087D /* Pods-KZ_RefreshScrollView_iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -259,7 +383,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_RefreshScrollView_iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_RefreshScrollView_iOS/Pods-KZ_RefreshScrollView_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -279,9 +403,23 @@
 			};
 			name = Release;
 		};
-		4DB5A4CDCB516AA62C8EFF4371EF7420 /* Debug */ = {
+		12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0481B5BADB437F072044C4704CB0703 /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */;
+			baseConfigurationReference = DE5EA5316518A19E12A7D87BED2C7EDE /* KZ_JSON.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F51646103BB1E6D6087204E04E31AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C0C066E2640782CAB763C04211DDCB /* Pods-KZ_RefreshScrollView_iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -293,7 +431,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_RefreshScrollView_iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_RefreshScrollView_iOS/Pods-KZ_RefreshScrollView_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -312,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,8 +482,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -367,11 +503,28 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A298598F03355EC8819171BA2E6397B /* KZ_Categories.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,8 +556,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -431,32 +582,114 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F8BD51558D6731C23700D3DC25F8CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120356A3A4C5407451A57609E13573ED /* KZ_MacroDefinition.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFC9D427176FF155D0D25B213C4EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5EA5316518A19E12A7D87BED2C7EDE /* KZ_JSON.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A298598F03355EC8819171BA2E6397B /* KZ_Categories.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120356A3A4C5407451A57609E13573ED /* KZ_MacroDefinition.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43F8608D56892E0D07D023FFF00E2230 /* Build configuration list for PBXNativeTarget "Pods-KZ_RefreshScrollView_iOS" */ = {
+		76C5211E611DF21149CC703F3B8E34E5 /* Build configuration list for PBXAggregateTarget "KZ_MacroDefinition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DB5A4CDCB516AA62C8EFF4371EF7420 /* Debug */,
-				33E2CFA40427C4BAB9E76891BF683749 /* Release */,
+				DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */,
+				7F8BD51558D6731C23700D3DC25F8CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D3F98899DA6C134FA31B3293926501 /* Build configuration list for PBXAggregateTarget "KZ_JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFC9D427176FF155D0D25B213C4EE3B /* Debug */,
+				12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE1EBDE040324E64BB21AD3439566B8 /* Build configuration list for PBXNativeTarget "Pods-KZ_RefreshScrollView_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F51646103BB1E6D6087204E04E31AFC /* Debug */,
+				0EE75662EAB988746DBF3A77BED21E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66B6B354F63A3FF1FC96F9E37FC5256 /* Build configuration list for PBXAggregateTarget "KZ_Categories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */,
+				4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

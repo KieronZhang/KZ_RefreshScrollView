@@ -1,7 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/KZ_Categories/KZ_Categories" "${PODS_ROOT}/KZ_JSON/KZ_JSON" "${PODS_ROOT}/KZ_MacroDefinition/KZ_MacroDefinition"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "KZ_Categories_iOS" -framework "KZ_JSON_iOS" -framework "KZ_MacroDefinition_iOS"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "KZ_Categories_iOS" -framework "KZ_JSON_iOS" -framework "KZ_MacroDefinition_iOS" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
